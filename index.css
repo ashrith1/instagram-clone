@@ -476,6 +476,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 0.25rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -520,8 +532,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 4rem;
 }
 
+.w-1 {
+  width: 0.25rem;
+}
+
 .max-w-5xl {
   max-width: 64rem;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .flex-1 {
@@ -570,6 +594,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
 .border-red-600 {
   --tw-border-opacity: 1;
   border-color: rgb(220 38 38 / var(--tw-border-opacity));
@@ -610,6 +642,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.375rem;
 }
 
+.p-0 {
+  padding: 0px;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -618,4 +654,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
