@@ -488,24 +488,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.25rem;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .ml-3 {
   margin-left: 0.75rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.ml-1 {
-  margin-left: 0.25rem;
 }
 
 .flex {
@@ -524,12 +516,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 4rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
 
 .w-16 {
   width: 4rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .max-w-5xl {
@@ -542,6 +550,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-sm {
+  max-width: 24rem;
 }
 
 .flex-1 {
@@ -601,29 +621,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(220 38 38 / var(--tw-border-opacity));
 }
 
-.border-green-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(22 163 74 / var(--tw-border-opacity));
-}
-
-.border-blue-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(37 99 235 / var(--tw-border-opacity));
-}
-
 .border-red-500 {
   --tw-border-opacity: 1;
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
-}
-
-.border-violet-800 {
-  --tw-border-opacity: 1;
-  border-color: rgb(91 33 182 / var(--tw-border-opacity));
-}
-
-.border-purple-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(147 51 234 / var(--tw-border-opacity));
 }
 
 .bg-stone-100 {
@@ -673,20 +673,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 1.25rem;
 }
 
-.pt-0 {
-  padding-top: 0px;
-}
-
 .pt-1 {
   padding-top: 0.25rem;
 }
 
 .pr-1 {
   padding-right: 0.25rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
 }
 
 .pl-3 {
@@ -698,17 +690,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.font-semibold {
-  font-weight: 600;
+.font-medium {
+  font-weight: 500;
 }
 
 .font-light {
@@ -719,15 +702,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 100;
 }
 
-.font-normal {
-  font-weight: 400;
-}
-
-.font-medium {
-  font-weight: 500;
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+.text-gray-100 {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
+.text-stone-300 {
+  --tw-text-opacity: 1;
+  color: rgb(214 211 209 / var(--tw-text-opacity));
+}
+
+.text-stone-400 {
+  --tw-text-opacity: 1;
+  color: rgb(168 162 158 / var(--tw-text-opacity));
+}
+
+.text-stone-500 {
+  --tw-text-opacity: 1;
+  color: rgb(120 113 108 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
